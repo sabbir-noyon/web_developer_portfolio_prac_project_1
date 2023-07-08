@@ -9,10 +9,13 @@ body{
     font-family:'Open Sans', sans-serif; 
 }
 
+/* navigation-menu-part-start */
+
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
  
 
@@ -57,6 +60,22 @@ nav a{
     border-radius:5px;
 }
 
+/* navigation-menu-part-end */
 
+/* header-hero-area-start */ 
 
+.header{
+    background-color:#FFF8F3;;
+}
 
+.header-hero-section{
+    display:flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+
+}
+
+.profile-picture{
+    width: 584px;
+    height: 676px;
+}
